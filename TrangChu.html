@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/TrangChu.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Link Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <!-- Link box icon -->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <div class="container fix-top">
+    <!-- Phần thanh menu -->
+    <div class="col-sm-12">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
+        <div class="container-fluid" id="thanh-menu">
+          <!-- Logo Brand -->
+          <a class="navbar-brand" href="#">
+            <img src="./images/0.png" alt="" style="">
+            <!-- <img src="./images/logo-book.png" alt=""> -->
+            
+            
+          </a>
+          <!-- Button collapse -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trang Chủ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/SanPham.html" role="button">Sản Phẩm
+                  
+                </a>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Sự Kiện
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hàng ngày</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tuần</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tháng</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tin Tức
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hàng ngày</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tuần</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tháng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="./LienHe.html" role="button" data-bs-toggle="">Liên Hệ
+                  
+                </a>
+                
+              </li>
+              
+              
+            </ul>
+            <div class="phan-button-sign-up">
+              <button class="sign-up" type="submit" data-bs-toggle="modal" data-bs-target="#myModal">Sign Up</button>
+              
+            </div>
+            
+          </div>
+        </div>
+        
+      </nav>
+    </div>
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Đăng Nhập</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            Trang đăng nhập đang bảo trì cập nhật 
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần banner -->
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" style="background-image:url('/images/banner1.jpg')"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item slider-1">
+          <img src="./images/banner1.jpg" alt="" class="d-block c-img" style="background-image:black">
+          <div class="carousel-caption caption-slide-1">
+            <p class="tieu-de-slide-1">IT'S ALL FOR U</p>
+            <h1>Thế Giới Của Bạn Ở Đây</h1>
+            <p class="noi-dung-slide-1"> Nơi tri thức mang đến cho bạn nhiều cơ hội trí tuệ và sự sáng tạo vô cực
+              Mọi thứ bạn cần đều ở đây cả. Tất cả là của bạn
+            </p>
+            <button>Xem Thêm</button>
+          </div>
+          
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./images/banner2.png" alt="" class="d-block c-img" style="background-color: #efe6d529">
+          <div class="carousel-caption caption-slide-2">
+            <p class="chuong-sach">NGAY TẠI CHƯƠNG I</p>
+            <h1 style="">Văn Học Nguồn Cảm Hứng Của Tôi</h1>
+            <p class="trich-dan-sach">
+              Binô là một đứa bạn thú vị. Trong khi, tôi là một đứa nhạt nhẽo. 
+              Có lẽ nó thích tôi chỉ vì tgiitem slider-3">
+          <img src="./images/banner4.jpg" alt="" class="d-block c-img" style="width:100%">
+          <div class="carousel-caption caption-slide-3">
+            <i class="fa-brands fa-pagelines" style="font-size: 50px;"></i>
+            <p class="trich-dan-tac-gia">
+              Sách được sinh ra không phải để làm nội thất,
+              nhưng không có gì đẹp để trang trí ngoài sách
+            </p>
+            <p class="ten-tac-gia">Henry Ward Beecher</p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    
+    <!-- Phần sản phẩm nổi bật -->
+    <div class="col-sm-12">
+      <!-- Phần tiêu đề chữ sản phẩm hot -->
+      <div class="san-pham-hot">
+        <h3>NHỮNG CUỐN SÁCH ĐỌC <br>
+        CHẠY TRONG TUẦN</h3>
+        <p>
+          Dưới đây là những cuốn sách được các vị <br> đọc giả 
+          đọc nhiều nhất được chúng tôi liệt kê
+        </p>
+      </div>
+      <!-- Phần sản phẩm sách -->
+      <div class="row phan-san-pham">
+        <!-- Sách thứ 1 -->
+        <div class="col-sm-3 col-6 san-pham">
+          <a href="#">
+            <img src="./images/product1.jpg" alt="">
+          </a>
+          <p class="ten-tac-gia">JAMES HOFFMAN</p>
+          <p class="ten-sach">Renaissance History</p>
+          <p class="trang-thai">FREE</p>
+        </div>
+        <!-- Sách thứ 2 -->
+        <div class="col-sm-3 col-6 san-pham">
+          <a href="#">
+            <img src="./images/product2.jpg" alt="">
+          </a>
+          <p class="ten-tac-gia">MARIE NOVELE</p>
+          <p class="ten-sach">Like A Summer</p>
+          <p class="trang-thai">FREE</p>
+        </div>
+        <!-- Sách thứ 3 -->
+        <div class="col-sm-3 col-6 san-pham">
+          <a href="#">
+            <img src="./images/product3.jpg" alt="">
+          </a>
+          <p class="ten-tac-gia">JORDAN NILL</p>
+          <p class="ten-sach">Let's Amsterdam</p>
+          <p class="trang-thai">FREE</p>
+        </div>
+        <!-- Sách thứ 4 -->
+        <div class="col-sm-3 col-6 san-pham">
+          <a href="#">
+            <img src="./images/product4.jpg" alt="">
+          </a>
+          <p class="ten-tac-gia">MARIE NOVELE</p>
+          <p class="ten-sach">Cook Book</p>
+          <p class="trang-thai">FREE</p>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <!-- Phần mục tiêu & Về chúng tôi -->
+    <div class="col-sm-12 muc-tieu-ve-chung-toi">
+      <!-- Phần mục tiêu -->
+      <div class="col-sm-12 muc-tieu">
+        <h2>MỤC TIÊU CỘNG ĐỒNG</h2>
+        <div class="row">
+          <div class="col-sm-3 col-6 nd-muc-tieu">
+            <i class="fa-regular fa-lightbulb"></i>
+            <p>Sáng tạo</p>
+          </div>
+          <div class="col-sm-3 col-6 nd-muc-tieu">
+            <i class="fa-solid fa-school"></i>
+            <p>Học Hỏi</p>
+          </div>
+          <div class="col-sm-3 col -6 nd-muc-tieu">
+            <i class="fa-solid fa-user-group"></i>
+            <p>Kết Nối</p>
+          </div>
+          <div class="col-sm-3 col-6 nd-muc-tieu">
+            <i class="fa-solid fa-clover"></i>
+            <p>Chia Sẻ</p>
+          </div>
+        </div>
+        
+      </div>
+      <!-- Phần về chúng tôi -->
+      <div class="col-sm-12 ve-chung-toi">
+        <h2>VỀ CHÚNG TÔI</h2>
+        <p>
+          Chúng tôi tin rằng chỉ những trang web đọc sách miễn phí được xây dựng từ trái tim mới có thể chạm đến trái tim của người đọc. Bằng cả tấm lòng chúng tôi lập ra trang web này nhằm mục đích mang đến những giá trị cho cộng đồng các bạn trẻ nói riêng và tất cả mọi người trên thế giới nói chung
+        </p>
+        <button>MORE</button>
+      </div>
+    </div>
+
+    <!-- Phần cơ hội gặp gỡ -->
+    <div class="col-sm-12 co-hoi-gap-go">
+      
+      <div class="row">
+        <div class="col-lg-6 phan-text-co-hoi">
+          <p class="chuong-trinh-db">CHƯƠNG TRÌNH ĐẶC BIỆT</p>
+          <p class="co-hoi">Cơ Hội Gặp Gỡ</p>
+          <p class="giao-luu">
+            Tham gia giao lưu với các tác giả
+            nổi tiếng trên thế giới học hỏi trao
+            đổi kinh nghiệm giữa bạn đọc
+          </p>
+          <button>MORE</button>
+        </div>
+        <div class="col-lg-6 anh-co-hoi-gap-go">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./images/gap-go-1.jpg" alt="">
+              <img src="./images/gap-go-2.jpg" alt="">
+              <img src="./images/gap-go-3.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="./images/gap-go-4.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                  <img src="./images/gap-go-7.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-12 gap-go-big">
+                <img src="./images/gap-go-big.jpg" alt="">
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần tin tức - sự kiên -->
+    <div class="col-lg-12 phan-tin-tuc" style="">
+      <div class="col-lg-12 ten-su-kien" >
+        Tin Tức - Sự Kiện
+      </div>
+      <div class="row ">
+        <div class="col-lg-6">
+          <div class="col-lg-12">
+            <div class="row phan-noi-dung">
+              <div class="col-lg-3 anh-tin-tuc">
+                <img src="./images/tin-tuc-1.jpg" alt="">
+              </div>
+              <div class="col-lg-9 noi-dung-tin-tuc">
+                <p class="ngay-tin-tuc">4/4/2024</p>
+                <p class="nd">
+                  Tôi được trả 12 triệu VND để viết sách. Đây là lý do tại sao tôi tiết lộ điều đó
+                </p>
+              </div>
+            </div>
+
+            <div class="row phan-noi-dung">
+              <div class="col-lg-3 anh-tin-tuc">
+                <img src="./images/tin-tuc-2.jpg" alt="">
+              </div>
+              <div class="col-lg-9 noi-dung-tin-tuc">
+                <p class="ngay-tin-tuc">3/4/2024</p>
+                <p class="nd">
+                  'Cậu bé' lạc lối gần 100 tuổi: Nhà thơ 
+                  và nhà xuất bản Lawrence Ferlinghetti
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row phan-noi-dung">
+            <div class="col-lg-3 anh-tin-tuc">
+              <img src="./images/tin-tuc-3.jpg" alt="">
+            </div>
+            <div class="col-lg-9 noi-dung-tin-tuc">
+              <p class="ngay-tin-tuc" >6/4/2024</p>
+              <p class="nd">
+                Bạn có cảm thấy xấu hổ khi đọc sách cho trẻ em?
+                Câu hỏi suy ngẫm
+              </p>
+            </div>
+          </div>
+
+          <div class="row phan-noi-dung">
+            <div class="col-lg-3 anh-tin-tuc">
+              <img src="./images/tin-tuc-4.jpg" alt="">
+            </div>
+            <div class="col-lg-9 noi-dung-tin-tuc">
+              <p class="ngay-tin-tuc">9/4/2024</p>
+              <p class="nd">
+                Kỹ thuật số và in ấn: Cuộc chiến sách đang diễn ra gay gắt
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Phần nhận xét tác giả -->
+    <!-- Phần silder -->
+    <div class="col-lg-12 nhan-xet-tac-gia">
+      <hr/>
+      <img src="./images/tac-gia-1.jpg" alt="">
+      <p>"Đây là một trang web hữu ích thích hợp cho các
+        bạn đọc giả học hỏi tìm hiểu giao lưu chia sẻ kinh nghiệm cùng với các bạn cùng đọc học hỏi 
+        nhiều điều bổ ích. 
+        Đôi khi bạn yêu mến một ai đó đơn giản chỉ vì người đó thật lòng yêu mến bạn."
+      </p>
+      <p class="ten-tac-gia-nhan-xet">Nguyễn Nhật Ánh</p>
+    </div>
+
+  </div>
+  <!-- Phần đăng kí nhận thông báo -->
+  <div class="col-lg-12 dang-ki" style="background-image:url('./images/background-image.jpg'); background-size: cover">
+      <h3>Đăng Kí Nhận Bảng Tin</h3>
+      <input type="email" class="input-email" placeholder="Enter your email">
+      <input type="submit" value="Đăng Ký" class="submit-button">
+  </div>
+  <div class="col-lg-12 phan-footer">
+    <div class="row">
+      <div class="col-lg-5 col-12 phan-logo-footer">
+        <img src="./images/0.png" alt="" style="width: 50%;">
+        <p>
+          <span style="font-weight: bold; color:rgba(89, 89, 89, 0.955)">Công ty TNHH Joy Book - Địa chỉ trụ sở:</span>
+           Nguyễn Cư Trinh, Nguyễn Trãi, TP.HCM, Việt Nam
+          - Mã số thuế: 5800000167</p>
+      </div>
+      <div class="col-lg-2 col-6 link-footer">
+        <ul>
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#">Sản Phẩm</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+          <li><a href="#">Tin Tức</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6 link-footer">
+        <ul>
+          <li><a href="#">Đọc Chạy</a></li>
+          <li><a href="#">Miễn Phí</a></li>
+          <li><a href="#">Thuê Sách</a></li>
+          <li><a href="#">Sách Tốt</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-12 theo-doi-footer">
+        <a href="/">Theo dõi chúng tôi</a><br>
+        <i class="fa-brands fa-facebook" style=""></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </div>
+    
+  </div>
+  <a href="#" class="back-to-top"><i class="bi bi-arrow-up-square-fill"></i></a>
+</body>
+</html>

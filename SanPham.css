@@ -1,0 +1,269 @@
+/* .banner-san-pham img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Farsan&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.banner-san-pham {
+  /* width: 400px; */
+  margin-top: 5rem;
+  position: relative;
+  background-size: cover;
+  min-height: 25rem;
+  font-family: "Noto Serif", serif;
+}
+.banner-san-pham::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.banner-san-pham h2{
+  position: absolute;
+  bottom: 8rem;
+  left: 25%;
+  right: 25%;
+  font-size: 50px;
+  text-align: center;
+  color:white;
+}
+.banner-san-pham i {
+  position: absolute;
+  top:5rem;
+  left: 25%;
+  right: 25%;
+  font-size: 50px;
+  text-align: center;
+  color:white;
+}
+.tieu-de-danh-sach {
+  padding-top: 7rem;
+}
+.sap-xep {
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+.tieu-de-danh-sach select {
+  width: 15rem;
+  height: 3rem;
+  font-size: 18px;
+  padding: 8px 10px;
+  color: rgba(89, 89, 89, 0.655);
+}
+.tieu-de-danh-sach h3 {
+  font-family: "Noto Serif", serif;
+}
+.danh-sach-sp {
+  padding-top: 40px;
+}
+.danh-sach-sp img {
+  width: 100%;
+}
+.danh-sach-sp input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+}
+.danh-sach-sp input:focus {
+  outline: none;
+}
+.danh-sach-sp h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Noto Serif", serif;
+}
+.danh-sach-sp li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+.danh-sach-sp ul {
+  padding-left: 0;
+}
+.danh-sach-sp a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.551);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Noto Serif", serif;
+}
+.danh-sach-sp .the-loai a h3 {
+  color: black;
+  text-transform: capitalize;
+}
+.danh-sach-sp i {
+  padding-left: 1rem;
+}
+.danh-sach-sp a:hover {
+  color: rgba(217, 2, 2, 0.814);
+}
+.san-pham {
+  padding-bottom: 40px;
+}
+.san-pham img:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.click-xem-them {
+  color:rgba(0, 116, 225, 0.867);
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Noto Serif", serif;
+}
+.click-xem-them:hover {
+  color:rgba(0, 85, 165, 0.999);
+}
+.read-more {
+  display: none;
+}
+
+.read-more-show{
+  display: inline;
+}
+.tom-tat-nd {
+  padding: 0;
+}
+.tom-tat-nd p {
+  margin-bottom: 5px;
+}
+.tom-tat-nd .id-sach {
+  font-family: "Playfair Display", serif;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(100, 100, 100, 0.841);
+}
+.tom-tat-nd button {
+  background-color: rgba(161, 161, 161, 0.237);
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.tom-tat-nd button:hover {
+  background-color: rgba(176, 0, 0, 0.807);
+  color: white;
+}
+.danh-gia i{
+  color: rgb(255, 212, 0);
+}
+.phan-mieu-ta h2 {
+  font-family: "Noto Serif", serif;
+}
+.phan-mieu-ta a{
+  text-decoration:none; 
+  color: rgba(209, 0, 0, 0.899); 
+  font-weight:500
+}
+.phan-mieu-ta .nam-phat-hanh {
+  font-family: "Inter", sans-serif;
+  font-weight:  bold;
+  color: rgba(88, 88, 88, 0.618);
+  margin-bottom: 5px;
+}
+.phan-mieu-ta .ten-tg-chi-tiet{
+  margin-bottom: 10px;
+}
+.danh-gia {
+  margin-bottom: 15px;
+}
+.bookmark i{
+  font-size: 30px;
+  padding-top:30px
+}
+.nhan-xet-tg {
+  margin-top: 30px;
+}
+.nhan-xet-tg img {
+  margin-top: 5px;
+
+}
+.nhan-xet-tg .nd-nhan-xet{
+  padding-left: 20px;
+}
+.nhan-xet-tg .nd-nhan-xet p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+}
+.comment-container {
+  padding-top: 5rem;
+}
+.id-sach {
+  padding-top: 1rem;
+}
+.phan-bia-sach a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 173);
+  font-weight: 500;
+}
+.phan-bia-sach img {
+  padding-bottom: 1rem;
+}
+.phan-bia-sach input {
+  margin-top: 15px;
+  background-color: rgba(186, 0, 0, 0.688);
+  color:white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.phan-bia-sach {
+  text-align: center;
+}
+.phan-bia-sach input:hover {
+  background-color: rgba(176, 0, 0, 0.807);
+  color: white;
+}
+@media only screen and (max-width:767px) {
+  .tieu-de-danh-sach .sap-xep {
+    padding-left: 12px;
+  }
+  .banner-san-pham h2 {
+    font-size: 25px;
+    bottom: 8.6rem;
+  }
+  .banner-san-pham i {
+    font-size: 35px;
+  }
+  .the-loai h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 10px
+  }
+  .the-loai ul li a {
+    font-size: 13px;
+    padding-left: 0;
+  }
+  .danh-sach-sp li {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width:1200px) {
+  .banner-san-pham h2 {
+    bottom: 4.5rem;
+  }
+}
+@media only screen and (max-width:961px) {
+  .navbar-brand img {
+    width: 230px;
+  }
+  .banner-san-pham h2 {
+    bottom: 5.3rem;
+    font-size: 35px;
+  }
+  .sap-xep {
+    padding-top: 10px;
+    padding-left: 0.6rem;
+  }
+}

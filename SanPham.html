@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sách List</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./TrangChu.css">
+  <link rel="stylesheet" href="./SanPham.css">
+
+  <!-- Link Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <!-- Link box icon -->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  
+</head>
+<body>
+  <div class="container fix-top">
+    <!-- Phần thanh menu -->
+    <div class="col-sm-12">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
+        <div class="container-fluid" id="thanh-menu">
+          <!-- Logo Brand -->
+          <a class="navbar-brand" href="#">
+            <img src="./images/0.png" alt="" style="">
+            <!-- <img src="./images/logo-book.png" alt=""> -->
+            
+            
+          </a>
+          <!-- Button collapse -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./TrangChu.html">Trang Chủ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/SanPham.html" role="button">Sản Phẩm
+                  
+                </a>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Sự Kiện
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hàng ngày</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tuần</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tháng</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tin Tức
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hàng ngày</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tuần</a></li>
+                  <li><a class="dropdown-item" href="#">Hàng tháng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="./LienHe.html" role="button" data-bs-toggle="">Liên Hệ
+                  
+                </a>
+                
+              </li>
+              
+              
+            </ul>
+            <div class="phan-button-sign-up">
+              <button class="sign-up" type="submit">Sign Up</button>
+            </div>
+            
+          </div>
+
+          
+
+        </div>
+      </nav>
+    </div>
+  <!-- Phần banner sản phẩm -->
+  </div>
+  <div class="col-lg-12 banner-san-pham" style="background-image:url('./imgSanPham/banner-sp.jpg'); background-size: cover">
+    <i class="fa-solid fa-earth-americas"></i>
+    <h2>
+      Nơi Kết Tinh Của Nhân Loại Là Ở Đây
+      Tất Cả Là Của Bạn
+    </h2>
+  </div>
+  <!-- Phần sản phẩm -->
+  <div class="container ">
+    <div class="col-lg-12">
+      <div class="row tieu-de-danh-sach" style="">
+        <div class="col-lg-9">
+          <h3>DANH SÁCH QUYỂN SÁCH</h3>
+          <p>Số lượng sách từ 1-20</p>
+        </div>
+        <div class="col-lg-3 sap-xep">
+          <select>
+            <option value="#">Số Lượng Đọc</option>
+            <option value="#">Sách Nói</option>
+            <option value="#">Sách Đọc PDF</option>
+          </select>
+        </div>
+      </div>
+      <hr style="height:2px;border-width:5px;color:rgba(245, 0, 0, 0.829);opacity:100%"/>
+    </div>
+  </div>
+  <div class="container danh-sach-sp">
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-3 col-12">
+          <input type="text" placeholder="Tìm Kiếm">
+          
+          <h3>DANH MỤC</h3>
+          <p style="font-size: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Sách hot trong tuần</p>
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-3 col-3">
+                <img src="./imgSanPham/product-2.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-3">
+                <img src="./imgSanPham/product-3.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-3">
+                <img src="./imgSanPham/product-5.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-3">
+                <img src="./imgSanPham/product-6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          
+
+          <li class="nav-item the-loai">
+            <a href="#menutheloai" data-bs-toggle="collapse" class="nav-link">
+              <h3>Thể Loại &nbsp;<i class="bi bi-chevron-down" style="float:right"></i> </h3>
+              
+            </a>
+            <ul class="nav collapse row" id="menutheloai">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Gia Đình</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Khoa Học</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Tình Cảm</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Tự Sự</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Khoa học</a>
+              </li>
+            </ul>
+          </li>
+          
+          <!-- <div class="the-loai">
+            <h3>Thể Loại</h3>
+            <ul>
+              
+              <li><a href="#">Khoa Học</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#">Lịch Sử</a></li>
+              <li><a href="#">Khoa Học</a></li>
+            </ul>
+          </div> -->
+          
+          <hr style="height:2px;border-width:3px;"/>
+          <li class="nav-item the-loai">
+            <a href="#menutacgia" data-bs-toggle="collapse" class="nav-link">
+              <h3>Tác Giả &nbsp;<i class="bi bi-chevron-down" style="float:right"></i> </h3>
+              
+            </a>
+            <ul class="nav collapse row" id="menutacgia">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Anne Frank</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Daniel H. Pink</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Danielle Steel</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Kristin Fields</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Mark Manson</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Ned Vizzini</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >R. J. Palacio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Ralph Ellison</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Stephen Hawking</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- <div class="tac-gia">
+            <h3>Tác Giả</h3>
+            <ul>
+              <li><a href="#">Anne Frank</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#">Delia Owens</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div> -->
+          <hr style="height:2px;border-width:3px;;"/>
+
+          <li class="nav-item the-loai">
+            <a href="#menudinhdang" data-bs-toggle="collapse" class="nav-link">
+              <h3>Định Dạng &nbsp;<i class="bi bi-chevron-down" style="float:right"></i> </h3>
+              
+            </a>
+            <ul class="nav collapse row" id="menudinhdang">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Sách Đọc</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >Sách Nói</a>
+              </li>
+            </ul>
+          </li>
+          <!-- <div class="Định Dạng">
+            <h3>Định Dạng</h3>
+            <ul>
+              <li><a href="#">Sách Đọc</a></li>
+              <li><a href="#">Sách Nói</a></li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-lg-3 col-4">
+          <!-- Sách thứ 1 -->
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-1.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Renaissance History</p>
+            
+          </div>
+
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-2.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Symphony Of Trilogy</p>
+            
+          </div>
+
+          <div class="san-pham">
+            <a href="./ChiTiet.html">
+              <img src="./imgSanPham/product-3.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Easy Fast Healthy Recipes</p>
+            
+          </div>  
+        </div>
+        <div class="col-lg-3 col-4">
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-4.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JANE DOE</p>
+            <p class="ten-sach">Love Stories From Paris</p>
+            
+          </div>
+  
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-5.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Amster Hamster Trip</p>
+            
+          </div>
+  
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-6.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Summertime Love Stories</p>
+            
+          </div>
+          
+        </div>
+        <div class="col-lg-3 col-4">
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-7.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JOHN STRASS</p>
+            <p class="ten-sach">Ola, Minamos Amigos!</p>
+            
+          </div>
+  
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-8.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Wellness And Paradise</p>
+            
+          </div>
+  
+          <div class="san-pham">
+            <a href="#">
+              <img src="./imgSanPham/product-9.jpg" alt="">
+            </a>
+            <p class="ten-tac-gia">JAMES HOFFMAN</p>
+            <p class="ten-sach">Winter Darkest Tragedy</p>
+            
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-12 phan-footer ">
+    <hr/>
+    <div class="row">
+      <div class="col-lg-5 col-12 phan-logo-footer">
+        <img src="./images/0.png" alt="" style="width: 50%;">
+        <p>
+          <span style="font-weight: bold; color:rgba(89, 89, 89, 0.955)">Công ty TNHH Joy Book - Địa chỉ trụ sở:</span>
+           Nguyễn Cư Trinh, Nguyễn Trãi, TP.HCM, Việt Nam
+          - Mã số thuế: 5800000167</p>
+      </div>
+      <div class="col-lg-2 col-6 link-footer">
+        <ul>
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#">Sản Phẩm</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+          <li><a href="#">Tin Tức</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6 link-footer">
+        <ul>
+          <li><a href="#">Đọc Chạy</a></li>
+          <li><a href="#">Miễn Phí</a></li>
+          <li><a href="#">Thuê Sách</a></li>
+          <li><a href="#">Sách Tốt</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-12 theo-doi-footer">
+        <a href="/">Theo dõi chúng tôi</a><br>
+        <i class="fa-brands fa-facebook" style=""></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </div>
+    
+  </div>
+  <a href="#" class="back-to-top"><i class="bi bi-arrow-up-square-fill"></i></a>
+</body>
+</html>

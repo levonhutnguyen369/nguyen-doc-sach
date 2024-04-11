@@ -1,0 +1,77 @@
+
+body{
+  background-image: url('./images/background-img.jpg');
+  background-size:contain;
+
+}
+
+.container-tong {
+  padding-bottom: 20px;
+}
+.phan-lien-he {
+  padding-top: 10rem;
+}
+.phan-lien-he h2 {
+  font-family: "Noto Serif", serif;
+}
+.phan-lien-he h5 {
+  font-family: "Playfair Display", serif;
+  color: rgb(187, 0, 0);
+  font-weight: bold;
+}
+.phan-lien-he p {
+  padding-top: 3rem;
+  padding-right: 10rem;
+}
+.phan-lien-he i {
+  color:rgb(226, 0, 0);
+  font-weight: 500
+}
+.phan-lien-he button {
+  width: 80px;
+  border: 1px solid rgba(101, 101, 101, 0.405);
+  padding: 5px 10px;
+  background-color: rgba(215, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+}
+#ten {
+  width: 80%;
+
+}
+#sdt {
+  width: 80%;
+}
+#email {
+  width: 65%;
+}
+#noidung{
+  width: 80%;
+  height: 100px;
+  resize: none;
+}
+#ten, #sdt, #email, #noidung {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(92, 92, 92, 0.573);
+}
+.container-dt-email {
+  margin-top: 15px;
+}
+.container-nd {
+  margin-top: 20px;
+}
+.ban-do img:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width:767px) {
+  .phan-lien-he p {
+    padding-right: 0px;
+    padding-top: 20px;
+
+  }
+  .ban-do img {
+    margin-top: 20px;
+  }
+}

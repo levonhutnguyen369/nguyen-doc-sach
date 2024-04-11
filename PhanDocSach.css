@@ -1,0 +1,39 @@
+.noi-dung-sach {
+  padding-top: 10rem;
+}
+.danh-sach-chuong li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  font-family: "Noto Serif", serif;
+}
+.danh-sach-chuong ul li a:hover{
+  color: rgb(209, 0, 0)
+}
+.danh-sach-chuong li {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.danh-sach-chuong ul {
+  padding-left: 0px;
+}
+#menudschuong a::before{
+  content: "\1F680";
+}
+.nav-item #menudschuong h4{
+  color: rgba(0, 0, 0, 0.685);
+}
+.danh-sach-chuong a h4:hover{
+  color: rgba(0, 69, 138, 0.914);
+}
+
+.danh-sach-chuong h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.phan-cot-truyen h1{
+  font-family: "Noto Serif", serif;
+}
